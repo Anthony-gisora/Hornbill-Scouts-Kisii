@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --navBg: #510073b4;
+}
+
+.navBar {
+  background-color: var(--navBg);
+  text: var(--background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+}
+
+body {
+  height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
